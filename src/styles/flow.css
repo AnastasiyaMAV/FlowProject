@@ -1,0 +1,27 @@
+.buttonGroupClass {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-bottom: 20px;
+}
+
+.buttonClass {
+	font-size: 14px;
+	width: 180px;
+	height: 25px;
+	border-width: 1px;
+	color: #666666;
+	border-color: #dcdcdc;
+	font-weight: bold;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	text-shadow: inset 0px 1px 0px #ffffff;
+	background: linear-gradient(#f9f9f9, #e9e9e9);
+}
+
+.buttonClass:hover {
+	background: linear-gradient(#e9e9e9, #f9f9f9);
+}
