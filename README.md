@@ -4,7 +4,13 @@
 Приложение было создано для изучении библиотеки [React Flow](https://reactflow.dev/)
 ---
 
+Страница приложенияFlow:
+
 ![gif](https://github.com/AnastasiyaMAV/FlowProject/blob/main/src/assets/FlowProject.gif)
+
+Страница приложени FlowDragAndDrop:
+
+![gif](https://github.com/AnastasiyaMAV/FlowProject/blob/main/src/assets/FlowDragAndDrop.gif)
 
 #### Запуск приложения:
 
