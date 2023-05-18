@@ -4,7 +4,7 @@
 Приложение было создано для изучении библиотеки [React Flow](https://reactflow.dev/)
 ---
 
-Страница приложенияFlow:
+Страница приложения Flow:
 
 ![gif](https://github.com/AnastasiyaMAV/FlowProject/blob/main/src/assets/FlowProject.gif)
 
