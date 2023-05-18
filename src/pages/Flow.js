@@ -89,6 +89,7 @@ export const Flow = () => {
 					style={{
 						backgroundColor: "#ABCDEF",
 						padding: "10px",
+						borderRadius: "5px",
 					}}>
 					<div className="buttonGroupClass">
 						<span>Pattern background:</span>

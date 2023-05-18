@@ -1,0 +1,98 @@
+.dndflow {
+	flex-direction: column;
+	display: flex;
+	flex-grow: 1;
+	height: 100%;
+}
+
+.dndflow aside {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	border-right: 1px solid #eee;
+	padding: 15px 10px;
+	font-size: 12px;
+	background: #abcdef;
+}
+
+.dndflow .dndnode {
+	height: 20px;
+	padding: 4px;
+	border: 1px solid #1a192b;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: grab;
+	border: 2px solid black;
+}
+
+.dndflow .dndnode.input {
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+.dndflow .dndnode.input.dot {
+	width: 2px;
+	height: 2px;
+	right: 125px;
+	top: 100px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.dndflow .dndnode.top.dot {
+	position: absolute;
+	width: 2px;
+	height: 2px;
+	right: 125px;
+	top: 130px;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.dndflow .dndnode.bottom.dot {
+	width: 2px;
+	height: 2px;
+	right: 125px;
+	top: 160px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.dndflow .dndnode.output {
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+.dndflow .dndnode.output.dot {
+	width: 2px;
+	height: 2px;
+	right: 125px;
+	top: 220px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.dndflow .reactflow-wrapper {
+	flex-grow: 1;
+	height: 100%;
+}
+
+.dndflow .selectall {
+	margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+	.dndflow {
+		flex-direction: row;
+	}
+
+	.dndflow aside {
+		width: 20%;
+		max-width: 250px;
+	}
+}
